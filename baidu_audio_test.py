@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # 初始化
     bdr = BaiduRest("test_python", api_key, api_secert)
     # 语音文件存放目录
-    dir = 'E:\\一贯机器人\\一贯机器人\\语音\\语音对比测试\\wav'
+    dir = 'E:\\wav'
 
     for file in os.listdir(dir):
         if file.endswith(".wav"):
